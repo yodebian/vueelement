@@ -58,7 +58,14 @@ new Vue({
 
 ... ERROR THEN :D
 
-
+ERROR in ./theme/index.css
+Module parse failed: /Users/ricardotoledo/vue-proyectos/vueelement/theme/index.css Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+| .el-form-item__content:before, .el-form-item__content:after {
+|     display: table;
+|     content: "";
+ @ ./src/main.js 2:0-28
+ @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./src/main.js
 
 
 ```
